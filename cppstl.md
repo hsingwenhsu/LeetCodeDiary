@@ -44,3 +44,10 @@ while (ss.good()) {
     istream& getline (istream& is, string& str, char delim);
     istream& getline (istream& is, string& str);
     ``` 
+
+
+## Math Stuff
+### How to find gcd between two numbers
+- In the `<numeric>` library, we have gcd(m, n)
+- returns 0 if m or n == 0, else return the gcd
+- Ex. LeetCode 592. Fraction Addition and Subtraction
